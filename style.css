@@ -14,5 +14,71 @@ body {
     .navbar .nav-item.dropdown:hover .dropdown-menu {
         display: block;
         margin-top: 0; /* Nav-er sathe gap thik rakhar jonno */
+        color: green;
     }
+}/* 1. Main Nav Item er setup */
+.navbar-nav .nav-item {
+    position: relative; /* Dag-taki thik jaygay rakhar jonno */
+    padding: 0 ;
+}
+
+/* 2. Bam pasher "|" dag-ta (By default height 0 thakbe) */
+.navbar-nav .nav-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0; /* Shuru-te height nai */
+    background-color: #008844; /* IFIC Green color */
+    transition: height 0.4s ease; /* Animation speed */
+}
+
+/* 3. Mouse rakhle (Hover) dag-ta upor theke niche nambey */
+.navbar-nav .nav-item:hover::before {
+    height: 100%; /* Mouse rakhle height full hobe */
+}
+
+/* 4. Arrow rotate animation */
+.dropdown-toggle::after {
+    display: inline-block;
+    transition: transform 0.4s ease; /* Smooth ghurbe */
+}
+
+.nav-item.dropdown:hover .dropdown-toggle::after {
+    transform: rotate(180deg); /* Arrow matha uchu korbe */
+}
+:hover {
+    color: #008844 !important;
+}
+.nav-item.dropdown {
+    font-size: 14px;
+}
+.dropdown-item {
+    font-size: 13px;
+}
+/* 1. Dropdown Menu-r Background ar Border thik kora */
+.bg-green-dropdown {
+    background-color: #008844 !important; /* IFIC-er Green */
+    border-radius: 0; /* Mentor-er kotha moto shob square */
+    border: none;
+
+}
+
+/* 2. Vetorer Link (Item) gulor style */
+.bg-green-dropdown .dropdown-item {
+    color: white !important;
+    /* padding: 12px 20px; */
+    border-bottom: 1px solid rgb(226, 223, 223) !important; /* Choto choto divider */
+}
+
+/* 3. Shesh item-er niche border thakbe na */
+.bg-green-dropdown .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+/* 4. Hover korle ektu dark green hobe */
+.bg-green-dropdown .dropdown-item:hover {
+    background-color: #bd2d20 !important;
+    color: #ffffff !important;
 }
