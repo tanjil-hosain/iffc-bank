@@ -8,3 +8,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Sudhu boro screen-e hover kaj korbe (Laptop/Desktop) */
+@media (min-width: 992px) {
+    .navbar .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* Nav-er sathe gap thik rakhar jonno */
+    }
+}
