@@ -99,5 +99,20 @@ body {
     border-radius: 50%; /* Gol shape-er jonno */
     transform: scale(1.1); /* Ektu boro hobe */
 }
+.btn-3g{
+    width: 220px;
+    background-color: #008844;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btn-3g:hover{
+    background-color: #bd2d20 !important;
+    color: #ffffff !important;
+    
+
+}
 
 
