@@ -144,6 +144,15 @@ body {
     text-decoration: none;
     color: #008844;
  }
+.card2:hover-effect{
+    transition: 1s;
+}
+  
+
+.card2:hover{
+  opacity: 50%;
+    opacity: green;
+}
 
 
 
