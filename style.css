@@ -111,8 +111,20 @@ body {
 .btn-3g:hover{
     background-color: #bd2d20 !important;
     color: #ffffff !important;
+}
+.ific{
+    font-size: 100px !important;
+    color: rgb(108, 114, 120) !important;
     
-
+}
+.ific_child{
+    color: black !important;
+    font-weight: bold;
+}
+.underline{
+    border-bottom: 4px solid;
+    padding-bottom: 25px;
+    border-color: #008844;
 }
 
 
