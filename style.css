@@ -120,11 +120,32 @@ body {
 .ific_child{
     color: black !important;
     font-weight: bold;
+    margin-top: 65px;
+    margin-left: -320px;
+
 }
 .underline{
     border-bottom: 4px solid;
     padding-bottom: 25px;
     border-color: #008844;
 }
+@media (max-width: 991px) {
+    #hide {
+        display: none !important;
+    }
+}
+/* @media (max-width: 991px) {
+    .ific {
+        font-size: 50px !important;
+       margin-top: -10px;
+    }
+} */
+ .card-link{
+    text-decoration: none;
+    color: #008844;
+ }
+
+
+
 
 
