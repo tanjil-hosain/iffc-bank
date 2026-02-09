@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing:border-box; 
 }
 
 body {
@@ -48,9 +48,9 @@ body {
 .nav-item.dropdown:hover .dropdown-toggle::after {
     transform: rotate(180deg); /* Arrow matha uchu korbe */
 }
-:hover {
+/* :hover {
     color: #008844 !important;
-}
+} */
 .nav-item.dropdown {
     font-size: 14px;
 }
@@ -59,7 +59,7 @@ body {
 }
 /* 1. Dropdown Menu-r Background ar Border thik kora */
 .bg-green-dropdown {
-    background-color: #008844 !important; /* IFIC-er Green */
+    background-color: #008844 !important;
     border-radius: 0; /* Mentor-er kotha moto shob square */
     border: none;
 
@@ -155,9 +155,29 @@ body {
 }
 #timer{
     color:#ffffff !important;
+    font-weight:800 !important;
     text-align: center;
     pointer-events: none;
-    padding: 30px;
+    padding: 40px;
+}
+#service{
+    font-size: 100px !important;
+    color: rgb(108, 114, 120) !important;
+}
+#unbounded{
+    color: black !important;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -90px !important;
+    
+}
+#sncard{
+    text-align: justify;
+    pointer-events: none !important;
+}
+#serimg{
+    justify-content: center;
+    margin-top: 150px;
 }
 
 
