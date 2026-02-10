@@ -192,6 +192,7 @@ body {
     color: #ffffff;
     border-right:solid;
     border-color: #868686;
+   
 }
 .mrq{
     color: #ffffff;
@@ -200,7 +201,20 @@ body {
 #dark_car{
     margin-top: 120px;
 }
+#news-card{
+    border: none;
+}
+.card-title-news:hover{
+    color: #008844;
+}
+#newsbtn{
+    color: black;
+    font-weight: bold;
+}
+#newsbtn:hover{
+    color:#008844;
 
+}
 
 
 
