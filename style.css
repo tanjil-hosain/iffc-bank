@@ -219,6 +219,12 @@ body {
     color: #ffffff ;
     padding: 15px;
 }
+.available{
+    margin-top: -5px !important;
+}
+#footer_text{
+    color: #ffffff;
+}
 
 
 
