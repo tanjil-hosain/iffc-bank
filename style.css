@@ -223,9 +223,25 @@ body {
     margin-top: -5px !important;
 }
 #footer_text{
-    color: #ffffff;
+    color: #c5bfbf;
     background-color: #3b3b3b;
+    border: none;
 }
+#footer_text_li{
+      color: #c5bfbf;
+      background-color: #3b3b3b;
+      border: none;
+
+       border-bottom:1px solid ;
+       border-color: #868686;
+
+
+}
+#footer_text_li:hover{
+    color: #008844;
+}
+
+
 
 
 
