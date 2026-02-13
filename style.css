@@ -243,6 +243,26 @@ body {
 
 
 
+/* Sidebar Container */
+.fixed-sidebar {
+    position: fixed;
+    top: 50%; /* Screen-er majhkane rakhbe */
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50%);
+    gap: 15px;
+}
+
+.left-sidebar { left: 0; }
+.right-sidebar { right: 0; }
+
+#side_btn{
+    writing-mode: vertical-rl;
+}
+
+
+
+
 
 
 
