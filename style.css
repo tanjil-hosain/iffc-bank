@@ -48,9 +48,9 @@ body {
 .nav-item.dropdown:hover .dropdown-toggle::after {
     transform: rotate(180deg); /* Arrow matha uchu korbe */
 }
-/* :hover {
+a:hover {
     color: #008844 !important;
-} */
+}
 .nav-item.dropdown {
     font-size: 14px;
 }
@@ -251,6 +251,7 @@ body {
     flex-direction: column;
     transform: translateY(-50%);
     gap: 15px;
+    z-index: 1000;
 }
 
 .left-sidebar { left: 0; }
