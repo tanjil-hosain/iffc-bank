@@ -234,6 +234,7 @@ a:hover {
 
        border-bottom:1px solid ;
        border-color: #868686;
+       transition: 0.3s;
 
 
 }
@@ -270,7 +271,7 @@ a:hover {
     position: absolute;
     bottom: 10%;
     background-color:  rgba(0, 0, 0, 0.5);
-    color: #ffffff !important;
+    color: #ffffff;
     padding: 20px;
     margin-left: 50px;
     
