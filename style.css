@@ -261,6 +261,20 @@ a:hover {
     writing-mode: vertical-rl;
 }
 
+/* News--page */
+.banner-container{
+    position: relative;
+    width: 100%;
+}
+.overlay-box{
+    position: absolute;
+    bottom: 10%;
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: #ffffff !important;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
 
 
 
