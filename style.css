@@ -234,12 +234,14 @@ a:hover {
 
        border-bottom:1px solid ;
        border-color: #868686;
+       
       
 
 
 }
 #footer_text_li:hover{
     color: #008844;
+    transform: translateX(10px);
 }
 
 
@@ -294,6 +296,9 @@ a:hover {
 }
 .sidebar ul li a {
     color: #3b3b3b;
+}
+.sidebar ul li:hover{
+    transform: translateX(10px);
 }
 
 
