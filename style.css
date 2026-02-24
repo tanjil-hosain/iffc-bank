@@ -134,12 +134,20 @@ a:hover {
         display: none !important;
     }
 }
-/* @media (max-width: 991px) {
+@media (max-width: 576px) {
     .ific {
         font-size: 50px !important;
        margin-top: -10px;
     }
-} */
+}
+
+@media (max-width: 576px) {
+    .ific_child  {
+        font-size: 20px !important;
+       margin-top: -50px !important;
+       margin-left: 150px !important;
+    }
+}
  .card-link{
     text-decoration: none;
     color: #008844;
@@ -299,6 +307,13 @@ a:hover {
 }
 .sidebar ul li:hover{
     transform: translateX(10px);
+}
+.digital-banking{
+    font-size:medium;
+    margin-left: 130px;
+}
+.all_card{
+    border: none;;
 }
 
 
